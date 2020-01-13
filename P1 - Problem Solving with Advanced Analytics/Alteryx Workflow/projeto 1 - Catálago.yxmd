@@ -1,0 +1,1114 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P1-customers.xlsx
+Table=`p1-customers$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="Customer ID" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Address" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="ZIP" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Avg Sale Amount" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Store Number" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="Responded to Last Catalog" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+            <Field name="Avg Num Products Purchased" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+            <Field name="# Years as Customer" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P2-mailinglist.xlsx
+Table=`p1-mailinglist$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="Customer ID" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Address" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
+            <Field name="ZIP" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Store Number" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Avg Num Products Purchased" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="# Years as Customer" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Score_No" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="Score_Yes" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="F13" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="F14" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+            <Field name="F15" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P2-mailinglist.xlsx|||`p1-mailinglist$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="413" y="53" width="152.0964" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Contêiner 45</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="14">
+          <GuiSettings>
+            <Position x="546" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var">Avg Sale Amount</Value>
+              <Value name="y var">Customer Segment</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level">0</Value>
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">True</Value>
+              <Value name="group var">Customer Segment</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="654" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_1b4f7f4f684a451dbc0d48fa11990219_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings>
+            <Position x="546" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="x var"># Years as Customer</Value>
+              <Value name="y var">Avg Sale Amount</Value>
+              <Value name="y binary">False</Value>
+              <Value name="y level" />
+              <Value name="reg line">True</Value>
+              <Value name="smooth line">True</Value>
+              <Value name="smooth span">50</Value>
+              <Value name="spread">True</Value>
+              <Value name="boxplots">True</Value>
+              <Value name="jitter x">False</Value>
+              <Value name="jitter y">False</Value>
+              <Value name="log x">False</Value>
+              <Value name="log y">False</Value>
+              <Value name="groups">False</Value>
+              <Value name="group var">Name</Value>
+              <Value name="group lines">False</Value>
+              <Value name="default">True</Value>
+              <Value name="topleft">False</Value>
+              <Value name="topright">False</Value>
+              <Value name="bottomleft">False</Value>
+              <Value name="bottomright">False</Value>
+              <Value name="x label" />
+              <Value name="y label" />
+              <Value name="pointsize">10</Value>
+              <Value name="point size">1.0</Value>
+              <Value name="axis text size">1.2</Value>
+              <Value name="axis label size">1.3</Value>
+              <Value name="title size">1.4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_3f3ee67481a74892b364fc699d793bd7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="437.9999" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Customer Segment" selected="True" />
+                <SelectField field="Customer ID" selected="True" />
+                <SelectField field="Address" selected="True" />
+                <SelectField field="City" selected="True" />
+                <SelectField field="State" selected="True" />
+                <SelectField field="ZIP" selected="True" />
+                <SelectField field="Avg Sale Amount" selected="True" />
+                <SelectField field="Store Number" selected="True" />
+                <SelectField field="Responded to Last Catalog" selected="True" />
+                <SelectField field="Avg Num Products Purchased" selected="True" />
+                <SelectField field="# Years as Customer" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="522" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Name=True,Customer Segment=True,Customer ID=True,Address=True,City=True,State=True,ZIP=True,Avg Sale Amount=True,Store Number=True,Responded to Last Catalog=True,Avg Num Products Purchased=True,# Years as Customer=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_1bba9e19c97241bc9ae83bdf40ec69e8_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_574d4322961f468b913c0bfb6af7020c_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="762" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_99d10122840d4baeb0485acdc2e4537a_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="Linear_Regression">
+            <Position x="977.9999" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="standardize_pred">True</Value>
+              <Value name="internal_cv">True</Value>
+              <Value name="display_graphs">True</Value>
+              <Value name="set_seed_internal_cv">True</Value>
+              <Value name="set_seed_external_cv">True</Value>
+              <Value name="lambda_1se">True</Value>
+              <Value name="lambda_min">False</Value>
+              <Value name="Model Name"><![CDATA[Regressão_linear_variables ]]></Value>
+              <Value name="Y Var">Avg Sale Amount</Value>
+              <Value name="X Vars">Customer Segment,Avg Num Products Purchased</Value>
+              <Value name="Omit Constant">False</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0.5</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_1se</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Regressão_linear_variables ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="882" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Name" selected="True" />
+                <Field field="Customer Segment" selected="True" />
+                <Field field="Address" selected="True" />
+                <Field field="City" selected="True" />
+                <Field field="State" selected="True" />
+                <Field field="Responded to Last Catalog" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="24" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="Customer Segment" size="28" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="Customer ID" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Address" size="28" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="City" size="17" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="State" size="2" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="String" />
+                <Field name="ZIP" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Avg Sale Amount" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Store Number" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Responded to Last Catalog" size="3" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="String" />
+                <Field name="Avg Num Products Purchased" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="# Years as Customer" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1074" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_49fd2cf320cb4d61a7dc6b328055c91b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1182" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_d50130ae451247e0aba0e47fda61f730_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1074" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_c7d62ad781ed4c9fa5cc1f8990a58899_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+            <Position x="1290" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFileType>html</TempFileType>
+              <BatchMode value="False" />
+              <DataField>Report</DataField>
+              <Separator>Continuous</Separator>
+              <EmbedDependencies value="False" />
+              <ShowHeader value="False" />
+              <ShowFooter value="False" />
+              <PortraitMode value="False" />
+              <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+              <DefaultStyles>
+                <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+              </DefaultStyles>
+              <PNGResolution>1</PNGResolution>
+              <PNGLargerAction>squeeze</PNGLargerAction>
+              <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+              <PNGTransparentBG value="False" />
+              <PNGBackColor value="#ffffff" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
+            <Position x="558" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields orderChanged="False">
+                <Field name="Avg Sale Amount" />
+                <Field name="Avg Num Products Purchased" />
+                <Field name="# Years as Customer" />
+                <Field name="Customer ID" selected="False" />
+                <Field name="ZIP" selected="False" />
+                <Field name="Store Number" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <Covariance value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxPearsonCorrelation" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="654" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14692_676d699d38584c96b4a5f929ce2981fa_\Engine_15532_387139f9f43f41239e866e5ba0ac153a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="185" y="521" width="864.9999" height="381" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Projeto - Demanda de Catálogo</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="450" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">Sales_Predictor</Value>
+              <Value name="Y Var">Avg Sale Amount</Value>
+              <Value name="X Vars">Customer Segment + Avg Num Products Purchased</Value>
+              <Value name="Omit Constant">False</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec">Customer ID</Value>
+              <Value name="graph.resolution">2x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Regressão linear (3)</Name>
+              <AnnotationText>Regressão_linear_3</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Linear_Regression.yxmc" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="966" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_17032_b758eb76641c49d684e5e265ede1fb40_\Engine_15532_9158851861bc4aaea4ad580b94105679_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="210.0003" y="642.0003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Customer Segment" selected="True" />
+                <SelectField field="Customer ID" selected="True" />
+                <SelectField field="Address" selected="True" />
+                <SelectField field="City" selected="True" />
+                <SelectField field="State" selected="True" />
+                <SelectField field="ZIP" selected="True" />
+                <SelectField field="Store Number" selected="True" />
+                <SelectField field="Avg Num Products Purchased" selected="True" />
+                <SelectField field="# Years as Customer" selected="True" />
+                <SelectField field="Score_Yes" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="Score">
+            <Position x="558" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="modelChoice">Local Model</Value>
+              <Value name="score field">Score</Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value">
+              </Value>
+              <Value name="original percent">2</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+              <Value name="credentials">
+              </Value>
+              <Value name="models">
+              </Value>
+              <Value name="page">
+              </Value>
+              <Value name="errorStatus">
+              </Value>
+              <Value name="modelDetailJSON">
+              </Value>
+              <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+              <Value name="promoteURL">
+              </Value>
+              <Value name="username">
+              </Value>
+              <Value name="model_name">
+              </Value>
+              <Value name="model_owner">
+              </Value>
+              <Value name="apiKey">
+              </Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_17032_b758eb76641c49d684e5e265ede1fb40_\Engine_15532_fa6ab3c4423f4a17a5ba9eddd03a3002_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="858" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Cost_of_Catalog " action="Sum" rename="Sum_Cost_of_Catalog " />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="702" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Score]*[Score_Yes])&#xA;" field="Predict_sales" size="8" type="Double" />
+                <FormulaField expression="([Predict_sales]*0.50)- 6.50 " field="Cost_of_Catalog " size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Predict_sales = ([Score]*[Score_Yes])
+
+Cost_of_Catalog  = ([Predict_sales]*0.50)...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="966" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_17032_b758eb76641c49d684e5e265ede1fb40_\Engine_15532_43b5ac34c12d4216ad3d38109c35a204_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="798" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_17032_b758eb76641c49d684e5e265ede1fb40_\Engine_15532_996700cb1ac6406b8bedb4fbd0af6d6a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="786.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Name" selected="True" />
+                <Field field="Customer Segment" selected="True" />
+                <Field field="Address" selected="True" />
+                <Field field="City" selected="True" />
+                <Field field="State" selected="True" />
+                <Field field="Responded to Last Catalog" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="24" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="Customer Segment" size="28" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="Customer ID" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Address" size="28" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="City" size="17" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="V_String" />
+                <Field name="State" size="2" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="String" />
+                <Field name="ZIP" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Avg Sale Amount" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Store Number" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="Responded to Last Catalog" size="3" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="String" />
+                <Field name="Avg Num Products Purchased" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+                <Field name="# Years as Customer" source="File: C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 1\P1-customers.xlsx|||`p1-customers$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="210" y="785.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Scater Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Scater Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Reports" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Interactive" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Reports" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Interactive Report" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Reports" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Reports" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>projeto 1 - Catálago</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
