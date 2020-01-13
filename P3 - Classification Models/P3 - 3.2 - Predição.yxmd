@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Final_Predicted_Output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Foreign.Worker" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Duration.in.Current.address" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Instalment.per.cent" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Guarantors" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Concurrent.Credits" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Telephone" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Type.of.apartment" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Payment.Status.of.Previous.Credit" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Occupation" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Purpose" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Value.Savings.Stocks" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="No.of.dependents" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Credit.Amount" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Age.years" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Account.Balance" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Duration.of.Credit.Month" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="No.of.Credits.at.this.Bank" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Most.valuable.available.asset" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Length.of.current.employment" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Score_Creditworthy" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Score_Non-Creditworthy" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Field_22" size="254" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="522" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>Score_Creditworthy</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-01-12 19:01:05</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>0.7</Operand>
+              <StartDate>2020-01-12 19:01:05</StartDate>
+              <EndDate>2020-01-12 19:01:05</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Score_Creditworthy] &gt;= 0.7</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="378" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Foreign.Worker" selected="True" />
+            <Field field="Duration.in.Current.address" selected="True" />
+            <Field field="Instalment.per.cent" selected="True" />
+            <Field field="Guarantors" selected="True" />
+            <Field field="Concurrent.Credits" selected="True" />
+            <Field field="Telephone" selected="True" />
+            <Field field="Type.of.apartment" selected="True" />
+            <Field field="Payment.Status.of.Previous.Credit" selected="True" />
+            <Field field="Occupation" selected="True" />
+            <Field field="Purpose" selected="True" />
+            <Field field="Value.Savings.Stocks" selected="True" />
+            <Field field="No.of.dependents" selected="True" />
+            <Field field="Credit.Amount" selected="True" />
+            <Field field="Age.years" selected="True" />
+            <Field field="Account.Balance" selected="True" />
+            <Field field="Duration.of.Credit.Month" selected="True" />
+            <Field field="No.of.Credits.at.this.Bank" selected="True" />
+            <Field field="Most.valuable.available.asset" selected="True" />
+            <Field field="Length.of.current.employment" selected="True" />
+            <Field field="Score_Creditworthy" selected="True" />
+            <Field field="Score_Non-Creditworthy" selected="True" />
+            <Field field="Field_22" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Foreign.Worker" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Duration.in.Current.address" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Instalment.per.cent" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Guarantors" size="4" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="String" />
+            <Field name="Concurrent.Credits" size="17" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="String" />
+            <Field name="Telephone" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Type.of.apartment" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Payment.Status.of.Previous.Credit" size="26" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Occupation" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Purpose" size="12" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="String" />
+            <Field name="Value.Savings.Stocks" size="10" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="String" />
+            <Field name="No.of.dependents" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Credit.Amount" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Int16" />
+            <Field name="Age.years" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Account.Balance" size="12" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="String" />
+            <Field name="Duration.of.Credit.Month" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="No.of.Credits.at.this.Bank" size="11" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="V_String" />
+            <Field name="Most.valuable.available.asset" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+            <Field name="Length.of.current.employment" size="7" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="String" />
+            <Field name="Score_Creditworthy" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Double" />
+            <Field name="Score_Non-Creditworthy" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Double" />
+            <Field name="Field_22" source="File: C:\Users\Estevam Rizek\Desktop\Predictive-Analytics-for-Business-Nanodegree-master\P4 - Classification Models\Project\Final_Predicted_Output.csv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="618" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Score_Creditworthy" action="Count" rename="Count" />
+            <SummarizeField field="Field_22" action="Sum" rename="Sum_Field_22" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="269" y="5" width="565" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Contêiner 22</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="294" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>customers-to-score.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Account-Balance" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Duration-of-Credit-Month" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Payment-Status-of-Previous-Credit" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Purpose" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Credit-Amount" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Value-Savings-Stocks" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Length-of-current-employment" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Instalment-per-cent" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Guarantors" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Duration-in-Current-address" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Most-valuable-available-asset" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Age-years" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Concurrent-Credits" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Type-of-apartment" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="No-of-Credits-at-this-Bank" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Occupation" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="No-of-dependents" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Telephone" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Foreign-Worker" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="366" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Payment-Status-of-Previous-Credit" selected="True" />
+                <SelectField field="Value-Savings-Stocks" selected="True" />
+                <SelectField field="Length-of-current-employment" selected="True" />
+                <SelectField field="No-of-Credits-at-this-Bank" selected="True" />
+                <SelectField field="Age-years" selected="True" rename="Age_years_Median" />
+                <SelectField field="Credit-Amount" selected="True" />
+                <SelectField field="Duration-of-Credit-Month" selected="True" />
+                <SelectField field="Type-of-apartment" selected="True" />
+                <SelectField field="Purpose" selected="True" />
+                <SelectField field="Account-Balance" selected="True" />
+                <SelectField field="Most-valuable-available-asset" selected="True" />
+                <SelectField field="Instalment-per-cent" selected="True" />
+                <SelectField field="Telephone" selected="False" />
+                <SelectField field="Concurrent-Credits" selected="False" />
+                <SelectField field="Occupation" selected="False" />
+                <SelectField field="Foreign-Worker" selected="False" />
+                <SelectField field="Guarantors" selected="False" />
+                <SelectField field="Duration-in-Current-address" selected="False" />
+                <SelectField field="No-of-dependents" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4540_d282eac99dd64efb81c6c56c35bc54e1_\Engine_6260_528424d498a940b7b02dd684f920605f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="294" y="65.99997" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset_out\floresta de decisão.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>floresta de decisão.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings>
+            <Position x="486" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="score field">Score</Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value" />
+              <Value name="original percent">2.0</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Pontuação (13)</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Payment.Status.of.Previous.Credit" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Value.Savings.Stocks" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Length.of.current.employment" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="No.of.Credits.at.this.Bank" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Age_years_Median" source="R-DATA:" type="Double" />
+                <Field name="Credit.Amount" source="R-DATA:" type="Double" />
+                <Field name="Duration.of.Credit.Month" source="R-DATA:" type="Double" />
+                <Field name="Type.of.apartment" source="R-DATA:" type="Double" />
+                <Field name="Purpose" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Account.Balance" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Most.valuable.available.asset" source="R-DATA:" type="Double" />
+                <Field name="Instalment.per.cent" source="R-DATA:" type="Double" />
+                <Field name="Score_Creditworthy" source="R-DATA:" type="Double" />
+                <Field name="Score_Non-Creditworthy" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="582" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="666" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;=</Operator>
+                <Field>Score_Creditworthy</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-01-12 18:57:20</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>0.7</Operand>
+                  <StartDate>2020-01-12 18:57:20</StartDate>
+                  <EndDate>2020-01-12 18:57:20</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Score_Creditworthy] &gt;= 0.7</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="750" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Score_Creditworthy" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="13" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>P3 - 3.2 - Predição</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

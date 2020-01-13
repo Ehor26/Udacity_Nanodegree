@@ -1,0 +1,1703 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>credit-data-training.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Credit-Application-Result" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Account-Balance" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Duration-of-Credit-Month" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Payment-Status-of-Previous-Credit" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purpose" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Credit-Amount" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Value-Savings-Stocks" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Length-of-current-employment" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Instalment-per-cent" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Guarantors" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Duration-in-Current-address" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Most-valuable-available-asset" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Age-years" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Concurrent-Credits" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Type-of-apartment" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No-of-Credits-at-this-Bank" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Occupation" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No-of-dependents" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Telephone" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Foreign-Worker" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="134" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Credit-Application-Result" selected="True" />
+            <Field field="Account-Balance" selected="True" />
+            <Field field="Payment-Status-of-Previous-Credit" selected="True" />
+            <Field field="Purpose" selected="True" />
+            <Field field="Value-Savings-Stocks" selected="True" />
+            <Field field="Length-of-current-employment" selected="True" />
+            <Field field="Guarantors" selected="True" />
+            <Field field="Concurrent-Credits" selected="True" />
+            <Field field="No-of-Credits-at-this-Bank" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Credit-Application-Result" size="16" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Account-Balance" size="12" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Duration-of-Credit-Month" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Payment-Status-of-Previous-Credit" size="26" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purpose" size="12" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Credit-Amount" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Value-Savings-Stocks" size="10" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Length-of-current-employment" size="7" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Instalment-per-cent" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Guarantors" size="4" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Duration-in-Current-address" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Most-valuable-available-asset" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Age-years" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Concurrent-Credits" size="17" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="String" />
+            <Field name="Type-of-apartment" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No-of-Credits-at-this-Bank" size="11" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Occupation" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No-of-dependents" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Telephone" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Foreign-Worker" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\credit-data-training.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="214" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="listbox Select Incoming Fields">"Age-years"</Value>
+          <Value name="radio Null Value">True</Value>
+          <Value name="radio User Specified Replace From Value">False</Value>
+          <Value name="updown User Replace Value">0.00000</Value>
+          <Value name="radio Mean">False</Value>
+          <Value name="radio Median">True</Value>
+          <Value name="radio Mode">False</Value>
+          <Value name="radio User Specified Replace With Value">False</Value>
+          <Value name="updown User Replace With Value">0.00000</Value>
+          <Value name="checkbox Impute Indicator">False</Value>
+          <Value name="checkbox Imputed Values Separate Field">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Credit-Application-Result" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Account-Balance" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Duration-of-Credit-Month" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Payment-Status-of-Previous-Credit" size="26" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Purpose" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Credit-Amount" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Value-Savings-Stocks" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Length-of-current-employment" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Instalment-per-cent" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Guarantors" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Duration-in-Current-address" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Most-valuable-available-asset" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Age-years" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Concurrent-Credits" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Type-of-apartment" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="No-of-Credits-at-this-Bank" size="23" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="V_String" />
+            <Field name="Occupation" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="No-of-dependents" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Telephone" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Foreign-Worker" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+            <Field name="Age_years" source="Formula: IF &#xA;REGEX_Match([_CurrentField..." type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Imputation_v2.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Age_years" selected="True" rename="Age_years_Median" />
+            <SelectField field="Duration-of-Credit-Month" selected="True" />
+            <SelectField field="Type-of-apartment" selected="True" />
+            <SelectField field="Payment-Status-of-Previous-Credit" selected="True" />
+            <SelectField field="Account-Balance" selected="True" />
+            <SelectField field="Instalment-per-cent" selected="True" />
+            <SelectField field="Most-valuable-available-asset" selected="True" />
+            <SelectField field="Length-of-current-employment" selected="True" />
+            <SelectField field="Value-Savings-Stocks" selected="True" />
+            <SelectField field="No-of-Credits-at-this-Bank" selected="True" />
+            <SelectField field="Purpose" selected="True" />
+            <SelectField field="Credit-Amount" selected="True" />
+            <SelectField field="Credit-Application-Result" selected="True" />
+            <SelectField field="Occupation" selected="False" />
+            <SelectField field="Guarantors" selected="False" />
+            <SelectField field="Foreign-Worker" selected="False" />
+            <SelectField field="Duration-in-Current-address" selected="False" />
+            <SelectField field="Telephone" selected="False" />
+            <SelectField field="Concurrent-Credits" selected="False" />
+            <SelectField field="Age-years" selected="False" />
+            <SelectField field="No-of-dependents" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="-78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4252_53028d7f4d8b402ca169fa6ea4ff948f_\Engine_12524_3ebafbfbc21a493e9b2d82fde6a6658b_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="378" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">70</Value>
+          <Value name="validation pct">30</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1122" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings>
+        <Position x="1278" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target.level">Creditworthy</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="predictions">
+          <RecordInfo>
+            <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Modelo_impulsionador" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="error_measures">
+          <RecordInfo>
+            <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Accuracy" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_Creditworthy" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_Non-Creditworthy" source="R-DATA:" type="Double" />
+            <Field name="F1" source="R-DATA:" type="Double" />
+            <Field name="AUC" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Model Comparison.yxmc" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4252_53028d7f4d8b402ca169fa6ea4ff948f_\Engine_12524_98b1a9a0031e4b5197d16e7d668c0956_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4252_53028d7f4d8b402ca169fa6ea4ff948f_\Engine_12524_33d77e6a7a9f4a92bc4cb043eadf3a56_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4252_53028d7f4d8b402ca169fa6ea4ff948f_\Engine_12524_f8a7d11916ce45e7a32ed08fdbb996d2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Relatório</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>customers-to-score.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Account-Balance" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Duration-of-Credit-Month" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Payment-Status-of-Previous-Credit" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purpose" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Credit-Amount" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Value-Savings-Stocks" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Length-of-current-employment" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Instalment-per-cent" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Guarantors" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Duration-in-Current-address" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Most-valuable-available-asset" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Age-years" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Concurrent-Credits" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Type-of-apartment" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No-of-Credits-at-this-Bank" size="255" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Occupation" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No-of-dependents" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Telephone" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Foreign-Worker" source="File: C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset\customers-to-score.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Account-Balance" selected="True" />
+            <SelectField field="Length-of-current-employment" selected="True" />
+            <SelectField field="No-of-Credits-at-this-Bank" selected="True" />
+            <SelectField field="Age-years" selected="True" />
+            <SelectField field="Credit-Amount" selected="True" />
+            <SelectField field="Duration-of-Credit-Month" selected="True" />
+            <SelectField field="Instalment-per-cent" selected="True" />
+            <SelectField field="Most-valuable-available-asset" selected="True" />
+            <SelectField field="Value-Savings-Stocks" selected="True" />
+            <SelectField field="Payment-Status-of-Previous-Credit" selected="True" />
+            <SelectField field="Purpose" selected="True" />
+            <SelectField field="Concurrent-Credits" selected="False" />
+            <SelectField field="Type-of-apartment" selected="False" />
+            <SelectField field="Occupation" selected="False" />
+            <SelectField field="Foreign-Worker" selected="False" />
+            <SelectField field="Guarantors" selected="False" />
+            <SelectField field="Duration-in-Current-address" selected="False" />
+            <SelectField field="Telephone" selected="False" />
+            <SelectField field="No-of-dependents" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings>
+        <Position x="223" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Length-of-current-employment"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">True</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="REGEX_Replace([Value-Savings-Stocks], '£', '')" field="Value-Savings-Stocks" size="255" type="V_String" />
+            <FormulaField expression="IF [Value-Savings-Stocks] = 'None' THEN 0 ELSE [Value-Savings-Stocks] ENDIF" field="Value-Savings-Stocks" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Value-Savings-Stocks = REGEX_Replace([Value-Savings-Stocks], '£', '')
+Value-Savi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="366" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Account-Balance" selected="True" />
+            <Field field="Length-of-current-employment" selected="True" />
+            <Field field="No-of-Credits-at-this-Bank" selected="True" />
+            <Field field="Value-Savings-Stocks" selected="True" />
+            <Field field="Payment-Status-of-Previous-Credit" selected="True" />
+            <Field field="Purpose" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Account-Balance" size="12" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Length-of-current-employment" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="No-of-Credits-at-this-Bank" size="11" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Age-years" source="Formula: IF [_CurrentFieldName_] IN(&quot;Le..." type="Double" />
+            <Field name="Credit-Amount" source="Formula: IF [_CurrentFieldName_] IN(&quot;Le..." type="Double" />
+            <Field name="Duration-of-Credit-Month" source="Formula: IF [_CurrentFieldName_] IN(&quot;Le..." type="Double" />
+            <Field name="Instalment-per-cent" source="Formula: IF [_CurrentFieldName_] IN(&quot;Le..." type="Double" />
+            <Field name="Most-valuable-available-asset" source="Formula: IF [_CurrentFieldName_] IN(&quot;Le..." type="Double" />
+            <Field name="Value-Savings-Stocks" size="8" source="Formula: IF [Value-Savings-Stocks] = 'N..." type="String" />
+            <Field name="Payment-Status-of-Previous-Credit" size="26" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Purpose" size="12" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1098" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset_out\Regressão logística_Stepwise.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Regressão logística_Stepwise.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="605" y="881" width="253" height="281" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Impulssionador</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="44">
+          <GuiSettings>
+            <Position x="630" y="966" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name">Modelo impulsionador</Value>
+              <Value name="select.target">Credit-Application-Result</Value>
+              <Value name="select.predictors">Age_years_Median=True,Duration-of-Credit-Month=True,Type-of-apartment=True,Payment-Status-of-Previous-Credit=True,Account-Balance=True,Instalment-per-cent=True,Most-valuable-available-asset=True,Length-of-current-employment=True,Value-Savings-Stocks=True,No-of-Credits-at-this-Bank=True,Purpose=True,Credit-Amount=True,Credit-Application-Result=False</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">Age_years_Median</Value>
+              <Value name="marginal.plots">False</Value>
+              <Value name="plot.min.importance">2.5</Value>
+              <Value name="type.distribution">True</Value>
+              <Value name="type.continuous">False</Value>
+              <Value name="dist.gaussian">True</Value>
+              <Value name="dist.laplace">False</Value>
+              <Value name="dist.t">False</Value>
+              <Value name="t.df">4</Value>
+              <Value name="type.count">False</Value>
+              <Value name="type.binomial">False</Value>
+              <Value name="dist.bernoulli">True</Value>
+              <Value name="dist.adaboost">False</Value>
+              <Value name="type.multinomial">True</Value>
+              <Value name="n.trees">4000</Value>
+              <Value name="assess.cv">True</Value>
+              <Value name="num.folds">5</Value>
+              <Value name="n.cores">1</Value>
+              <Value name="assess.test">False</Value>
+              <Value name="train.fraction">50.0</Value>
+              <Value name="assess.oob">False</Value>
+              <Value name="bag.fraction">50.0</Value>
+              <Value name="shrinkage">0.0020</Value>
+              <Value name="interaction.depth">1</Value>
+              <Value name="n.minobsinnode">10</Value>
+              <Value name="rand.seed">1</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="726" y="930" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4252_53028d7f4d8b402ca169fa6ea4ff948f_\Engine_12524_b9e94dc4be59424490a75e84796b7290_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="726" y="990" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4252_53028d7f4d8b402ca169fa6ea4ff948f_\Engine_12524_7e0d68095bf942ec9d4080edbf5d33e6_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="726" y="1062" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset_out\impulsionador.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>impulsionador.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="593" y="593" width="187.5906" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Floresta de Decisão</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="39">
+          <GuiSettings>
+            <Position x="618" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">Floresta de Decisão</Value>
+              <Value name="Y Var">Credit-Application-Result</Value>
+              <Value name="X Vars">Age_years_Median + Duration-of-Credit-Month + Type-of-apartment + Payment-Status-of-Previous-Credit + Account-Balance + Instalment-per-cent + Most-valuable-available-asset + Length-of-current-employment + Value-Savings-Stocks + No-of-Credits-at-this-Bank + Purpose + Credit-Amount</Value>
+              <Value name="Num Trees">500</Value>
+              <Value name="Custom Num Vars">False</Value>
+              <Value name="Num Vars">3</Value>
+              <Value name="model.size">False</Value>
+              <Value name="total.nodes">100</Value>
+              <Value name="max.depth">10</Value>
+              <Value name="node.size">5</Value>
+              <Value name="replace">True</Value>
+              <Value name="samp.rate">100</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="822" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4576_b80483c2cf4b4845aeb22ef26062f2b0_\Engine_12524_88edcb468a6e46c083d48739a55bb7fc_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="822" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4576_b80483c2cf4b4845aeb22ef26062f2b0_\Engine_12524_7c086b904c2244689b7e0912fbfd5864_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="822" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset_out\floresta de decisão.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>floresta de decisão.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="593" y="53" width="134.1612" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>LM + STP</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="24">
+          <GuiSettings Plugin="Logistic_Regression">
+            <Position x="618" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="lambda_1se">True</Value>
+              <Value name="lambda_min">False</Value>
+              <Value name="Model Name">Regressão_logística</Value>
+              <Value name="Y Var">Credit-Application-Result</Value>
+              <Value name="X Vars">Age_years_Median,Duration-of-Credit-Month,Type-of-apartment,Payment-Status-of-Previous-Credit,Account-Balance,Instalment-per-cent,Most-valuable-available-asset,Length-of-current-employment,Value-Savings-Stocks,No-of-Credits-at-this-Bank,Purpose,Credit-Amount</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0.5</Value>
+              <Value name="standardize_pred">False</Value>
+              <Value name="internal_cv">False</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_1se</Value>
+              <Value name="set_seed_internal_cv">False</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="Link">logit</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="posClass">
+              </Value>
+              <Value name="stratified">False</Value>
+              <Value name="set_seed_external_cv">False</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Regressão_logística</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="714" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_1572_d3a49b45f74f41598a9ec01b42f47697_\Engine_12524_780993e1710049369b39aabf1b2d6f50_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="714" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_1572_d3a49b45f74f41598a9ec01b42f47697_\Engine_12524_0f95b776d0a0430ea3dd443963294068_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_1572_d3a49b45f74f41598a9ec01b42f47697_\Engine_12524_ea1c6e8f82aa4cab8ed427d9ac906cff_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings>
+            <Position x="750" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="New Model">Stepwise</Value>
+              <Value name="both">True</Value>
+              <Value name="backward">False</Value>
+              <Value name="AIC">True</Value>
+              <Value name="BIC">False</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="258" y="186" width="193.8936" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>preparação e analise</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="14">
+          <GuiSettings>
+            <Position x="282" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Age_years_Median=True,Duration-of-Credit-Month=True,Type-of-apartment=True,Payment-Status-of-Previous-Credit=True,Account-Balance=True,Instalment-per-cent=True,Most-valuable-available-asset=True,Length-of-current-employment=True,Value-Savings-Stocks=True,No-of-Credits-at-this-Bank=True,Purpose=True,Credit-Amount=True,Credit-Application-Result=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="366" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_fa30a38786a74c69b38b1fd2e76c2a55_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_ecfb885fd3cb4a62974e56e2cf55e7ab_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings>
+            <Position x="294" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="do target">True</Value>
+              <Value name="target">Credit-Application-Result</Value>
+              <Value name="target level">Creditworthy</Value>
+              <Value name="use fields">"Duration-of-Credit-Month","Credit-Amount","Instalment-per-cent","Duration-in-Current-address","Most-valuable-available-asset","Type-of-apartment","No-of-dependents","Telephone","Foreign-Worker"</Value>
+              <Value name="Pearson">True</Value>
+              <Value name="Spearman">False</Value>
+              <Value name="Hoeffding">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_d5ffc597fc5941608f22cbe5b082e454_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_820cc357ea28461899960c5b905083e7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings>
+            <Position x="282" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields" />
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_fe88f65960ec4f06bbeed4461fba70d8_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_1a4ad829fd3849ea81b7707f19331e2e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="378" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15388_2e91d2ecedf74479ab4bba88002d4795_\Engine_12524_27eef0df43ff42eeb17dc5f3368f2801_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="593" y="377" width="180.0424" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Arvore de decisão</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="762" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_448_27ce7e7d60b44167ab372ee8ceeadf22_\Engine_12524_2f88ba5a4f454dc2b00f4a041cd7484a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="822" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_448_27ce7e7d60b44167ab372ee8ceeadf22_\Engine_12524_3ec32f12661b47248e53cc1544fb5d04_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings>
+            <Position x="618" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Model Name">Árvore_de_decisão</Value>
+              <Value name="Y Var">Credit-Application-Result</Value>
+              <Value name="X Vars">Age_years_Median + Duration-of-Credit-Month + Type-of-apartment + Payment-Status-of-Previous-Credit + Account-Balance + Instalment-per-cent + Most-valuable-available-asset + Length-of-current-employment + Value-Savings-Stocks + No-of-Credits-at-this-Bank + Purpose + Credit-Amount</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">Age_years_Median</Value>
+              <Value name="cp">Auto</Value>
+              <Value name="select.type">True</Value>
+              <Value name="classification">True</Value>
+              <Value name="use.gini">True</Value>
+              <Value name="use.information">False</Value>
+              <Value name="regression">False</Value>
+              <Value name="min.split">20</Value>
+              <Value name="min.bucket">7</Value>
+              <Value name="usesurrogate.0">False</Value>
+              <Value name="usesurrogate.1">False</Value>
+              <Value name="usesurrogate.2">True</Value>
+              <Value name="total.correct">True</Value>
+              <Value name="percent.correct">False</Value>
+              <Value name="xval.folds">10</Value>
+              <Value name="max.depth">20</Value>
+              <Value name="max.bins">Default</Value>
+              <Value name="tree.plot">True</Value>
+              <Value name="Counts">False</Value>
+              <Value name="Proportions">True</Value>
+              <Value name="Branch Dist">False</Value>
+              <Value name="tree.inches">False</Value>
+              <Value name="tree.in.w">5.50</Value>
+              <Value name="tree.in.h">5.50</Value>
+              <Value name="tree.centimeters">True</Value>
+              <Value name="tree.cm.w">13.00</Value>
+              <Value name="tree.cm.h">14.95</Value>
+              <Value name="tree.graph.resolution">3x</Value>
+              <Value name="tree.pointsize">8</Value>
+              <Value name="prune.plot">False</Value>
+              <Value name="prune.inches">True</Value>
+              <Value name="prune.in.w">5.05</Value>
+              <Value name="prune.in.h">5.50</Value>
+              <Value name="prune.centimeters">False</Value>
+              <Value name="prune.cm.w">13.00</Value>
+              <Value name="prune.cm.h">14.95</Value>
+              <Value name="prune.graph.resolution">1x</Value>
+              <Value name="prune.pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Árvore de decisão (33)</Name>
+              <AnnotationText>Árvore_de_decisão</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Decision_Tree.yxmc" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="858" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\Estevam Rizek\Desktop\GITHUB\UDACITY\PROJETOS\P_3\Dataset_out\Arvore de decisão.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Arvore de decisão.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="14" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Estimation" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Estimation" />
+      <Destination ToolID="32" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="32" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Estimation" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Estimation" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Estimation" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Validation" />
+      <Destination ToolID="49" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Models" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="error_measures" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="predictions" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Report" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output26" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Report" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Reports" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Reports" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Interactive Report" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Reports" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Reports" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Interactive" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Correlation Matrix" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Reports" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Interactive" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Reports" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Interactive" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>P3 - 3.1_modelos</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
