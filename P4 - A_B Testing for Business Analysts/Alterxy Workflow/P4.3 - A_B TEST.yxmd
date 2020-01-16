@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="112.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 4\NOVO\Control_Treatment_pairs.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control_Treatment_pairs.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Controls" size="2147483647" source="R-DATA:" type="V_String" />
+            <Field name="Treatments" size="2147483647" source="R-DATA:" type="V_String" />
+            <Field name="Distance" source="R-DATA:" type="Double" />
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="AvgMonthSales" source="Summarize: GroupBy - AvgMonthSales" type="Double" />
+            <Field name="Region" size="254" source="Summarize: GroupBy - Region" type="V_String" />
+            <Field name="Group" size="2147483647" source="Formula: (Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Estevam Rizek\Desktop\CURSOS\UDACITY\PROJETOS\PROJETO - 4\NOVO\store_sales_analysis.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store_sales_analysis.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="Summarize: GroupBy - StoreID" type="V_String" />
+            <Field name="Week" source="Summarize: GroupBy - Week" type="Int16" />
+            <Field name="Week_Start" source="Summarize: GroupBy - Week_Start" type="Date" />
+            <Field name="Week_End" source="Summarize: GroupBy - Week_End" type="Date" />
+            <Field name="Sum_Sum_Gross Margin" scale="4" size="258" source="Summarize: Sum - Sum_Gross Margin" type="FixedDecimal" />
+            <Field name="Sum_Sum_Sales" scale="4" size="258" source="Summarize: Sum - Sum_Sales" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="168" y="112.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Region</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-03-15 19:08:36</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Central</Operand>
+              <StartDate>2019-03-15 19:08:36</StartDate>
+              <EndDate>2019-03-15 19:08:36</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Region] = "Central"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="376" y="86.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="select.controls.id">Controls</Value>
+          <Value name="select.control.treatment.link">Treatments</Value>
+          <Value name="select.treatments.id">StoreID</Value>
+          <Value name="select.performance.id">StoreID</Value>
+          <Value name="select.performance.period">Week_End</Value>
+          <Value name="select.performance.measure">Sum_Sum_Gross Margin</Value>
+          <Value name="StartDate">2016-04-29</Value>
+          <Value name="EndDate">2016-07-21</Value>
+          <Value name="custom.comparison.period">False</Value>
+          <Value name="ComparisonStart">2019-03-15</Value>
+          <Value name="ComparisonEnd">2019-03-15</Value>
+          <Value name="test.name" />
+          <Value name="additional.info" />
+          <Value name="measure.alt.name" />
+          <Value name="threshold">0.0</Value>
+          <Value name="save_dashboard" />
+          <Value name="date.format">ymd</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\AB_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="376" y="164.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="select.controls.id">Controls</Value>
+          <Value name="select.control.treatment.link">Treatments</Value>
+          <Value name="select.treatments.id">Treatments</Value>
+          <Value name="select.performance.id">StoreID</Value>
+          <Value name="select.performance.period">Week_End</Value>
+          <Value name="select.performance.measure">Sum_Sum_Gross Margin</Value>
+          <Value name="StartDate">2016-04-30</Value>
+          <Value name="EndDate">2016-07-21</Value>
+          <Value name="custom.comparison.period">False</Value>
+          <Value name="ComparisonStart">2019-03-15</Value>
+          <Value name="ComparisonEnd">2019-03-15</Value>
+          <Value name="test.name" />
+          <Value name="additional.info" />
+          <Value name="measure.alt.name" />
+          <Value name="threshold">0.0</Value>
+          <Value name="save_dashboard" />
+          <Value name="date.format">ymd</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\AB_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="376" y="255.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="select.controls.id">Controls</Value>
+          <Value name="select.control.treatment.link">Treatments</Value>
+          <Value name="select.treatments.id">Treatments</Value>
+          <Value name="select.performance.id">StoreID</Value>
+          <Value name="select.performance.period">Week_End</Value>
+          <Value name="select.performance.measure">Sum_Sum_Gross Margin</Value>
+          <Value name="StartDate">2016-04-29</Value>
+          <Value name="EndDate">2016-07-21</Value>
+          <Value name="custom.comparison.period">False</Value>
+          <Value name="ComparisonStart">2019-03-15</Value>
+          <Value name="ComparisonEnd">2019-03-15</Value>
+          <Value name="test.name" />
+          <Value name="additional.info" />
+          <Value name="measure.alt.name" />
+          <Value name="threshold">0.0</Value>
+          <Value name="save_dashboard" />
+          <Value name="date.format">ymd</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\AB_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="480" y="99.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4304_5e02b57311da4130a8f8a3f7333495bd_\Engine_12592_f8a41cb7d6404ef5bd6a919835962f53_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Relatório</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="480" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4304_5e02b57311da4130a8f8a3f7333495bd_\Engine_12592_890ed365b2194aa5b490a3b05aca7f41_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="480" y="164.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4304_5e02b57311da4130a8f8a3f7333495bd_\Engine_12592_e312bdc76f7941ce9a9d8b21355bcecd_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="480" y="203.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4304_5e02b57311da4130a8f8a3f7333495bd_\Engine_12592_acbc715b704346e58afe4b338b1b2f70_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="480" y="268.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4304_5e02b57311da4130a8f8a3f7333495bd_\Engine_12592_aee7d8d8f28c4ac8aea4c840d95030f8_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="480" y="307.5" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_4304_5e02b57311da4130a8f8a3f7333495bd_\Engine_12592_675eadfed609465b850d9325d4de574f_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Treatments" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Controls" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Performance Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Performance Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="False" />
+      <Destination ToolID="5" Connection="Controls" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="False" />
+      <Destination ToolID="5" Connection="Treatments" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Performance Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Treatments" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Controls" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive Dashboard" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive Dashboard" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Interactive Dashboard" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>P4.3 - A_B TEST</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
