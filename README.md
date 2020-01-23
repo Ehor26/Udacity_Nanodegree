@@ -12,8 +12,6 @@ Learn a structured framework for solving problems with advanced analytics. Learn
 
 - Project: [Predict Sales for a Catalog Launch](https://github.com/Ehor26/Udacity---Nanodegree---Predictive-Analytics-for-Business/blob/master/P1%20-%20Problem%20Solving%20with%20Advanced%20Analytics/Projeto%201-%20Prevendo%20Demanda%20de%20um%20Cat%C3%A1logo.pdf)
 
-- Project: [Predict Sales for a Catalog Launch](https://github.com/Ehor26/Udacity---Nanodegree---Predictive-Analytics-for-Business/blob/master/P1%20-%20Problem%20Solving%20with%20Advanced%20Analytics/Projeto%201-%20Prevendo%20Demanda%20de%20um%20Cat%C3%A1logo.pdf)
-
 ### Part 2: Data Wrangling
 Data Wrangling is at the core of all data activity. In this course you learn how to work with different data types,dirty data, and outliers. You will also learn how to reformat data and join data from different sources together.
 
@@ -42,4 +40,4 @@ Segmentation and Clustering are effective methods for finding patterns in your d
 
 - Project: [Combine Predictive Techniques](https://github.com/Ehor26/Udacity---Nanodegree---Predictive-Analytics-for-Business/blob/master/P6%20-%20Segmentation%20and%20Clustering/P7%20-%20Capstone%20de%20an%C3%A1lise%20preditiva.pdf)
 
-[Udacity Predictive Analytics for Business Nanodegree](https://graduation-api.udacity.com/api/certificate/25MAP44H/download)
+![Udacity Predictive Analytics for Business Nanodegree]()
